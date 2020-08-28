@@ -37,5 +37,10 @@ pipeline {
 				}
 			}
 		}
+		stage('demo step'){
+			steps{
+				echo 'This is for demo purpose'
+			}
+		}
 	}
 }
